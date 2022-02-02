@@ -17,12 +17,12 @@ public class ServiceS {
 	Logger logger = LoggerFactory.getLogger(ServiceS.class);
 
 	public EntitiyS saveUser(EntitiyS user) {
-		logger.debug("In Services class saveUser method :" +user.toString());
+		logger.info("In Services class saveUser method :" +user.toString());
 		return repo.save(user);
 	}
 
 	public EntitiyS getUser(int userid) {
-		logger.debug("In Services class getUser method :" +userid);
+		logger.info("In Services class getUser method :" +userid);
 		return repo.findByUserId(userid);
 	}
 
