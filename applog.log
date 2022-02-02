@@ -47,4 +47,61 @@
   2022-02-02 10:48:49,832 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
   2022-02-02 10:48:49,842 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] sa - Shutdown initiated...
   2022-02-02 10:48:49,848 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] sa - Shutdown completed.
+  2022-02-02 13:16:40,752 [INFO] com.example.SpringRestH2Application [main] Starting SpringRestH2Application using Java 16.0.2 on manu-pc with PID 31690 (/home/manu/Documents/workspace-spring-tool-suite-4-4.12.0.RELEASE/springRestH2/target/classes started by manu in /home/manu/Documents/workspace-spring-tool-suite-4-4.12.0.RELEASE/springRestH2)
+  2022-02-02 13:16:40,754 [INFO] com.example.SpringRestH2Application [main] No active profile set, falling back to default profiles: default
+  2022-02-02 13:16:41,216 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+  2022-02-02 13:16:41,255 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+  2022-02-02 13:16:41,842 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9001 (http)
+  2022-02-02 13:16:41,853 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+  2022-02-02 13:16:41,854 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+  2022-02-02 13:16:41,960 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+  2022-02-02 13:16:41,960 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1169 ms
+  2022-02-02 13:16:42,003 [INFO] com.zaxxer.hikari.HikariDataSource [main] sa - Starting...
+  2022-02-02 13:16:42,204 [INFO] com.zaxxer.hikari.HikariDataSource [main] sa - Start completed.
+  2022-02-02 13:16:42,217 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+  2022-02-02 13:16:42,370 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+  2022-02-02 13:16:42,415 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+  2022-02-02 13:16:42,577 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  2022-02-02 13:16:42,673 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+  2022-02-02 13:16:43,070 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+  2022-02-02 13:16:43,076 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2022-02-02 13:16:43,335 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2022-02-02 13:16:43,617 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9001 (http) with context path ''
+  2022-02-02 13:16:43,626 [INFO] com.example.SpringRestH2Application [main] Started SpringRestH2Application in 3.286 seconds (JVM running for 4.26)
+  2022-02-02 13:17:25,584 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+  2022-02-02 13:17:25,584 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9001-exec-1] Initializing Servlet 'dispatcherServlet'
+  2022-02-02 13:17:25,585 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9001-exec-1] Completed initialization in 1 ms
+  2022-02-02 13:17:25,680 [INFO] com.example.service.ServiceS [http-nio-9001-exec-1] In Services class saveUser method :EntitiyS [userId=1, userName=Manu, userAddress=null]
+  2022-02-02 13:17:32,931 [INFO] com.example.service.ServiceS [http-nio-9001-exec-3] In Services class getUser method :1
+  2022-02-02 13:17:57,046 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+  2022-02-02 13:17:57,058 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(11)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+  2022-02-02 13:17:57,058 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(11)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+  2022-02-02 13:17:57,062 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] sa - Shutdown initiated...
+  2022-02-02 13:17:57,065 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] sa - Shutdown completed.
+  2022-02-02 13:17:58,777 [INFO] com.example.SpringRestH2Application [main] Starting SpringRestH2Application using Java 16.0.2 on manu-pc with PID 31798 (/home/manu/Documents/workspace-spring-tool-suite-4-4.12.0.RELEASE/springRestH2/target/classes started by manu in /home/manu/Documents/workspace-spring-tool-suite-4-4.12.0.RELEASE/springRestH2)
+  2022-02-02 13:17:58,779 [INFO] com.example.SpringRestH2Application [main] No active profile set, falling back to default profiles: default
+  2022-02-02 13:17:59,240 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+  2022-02-02 13:17:59,280 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+  2022-02-02 13:17:59,674 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9001 (http)
+  2022-02-02 13:17:59,682 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+  2022-02-02 13:17:59,682 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+  2022-02-02 13:17:59,752 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+  2022-02-02 13:17:59,752 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 941 ms
+  2022-02-02 13:17:59,796 [INFO] com.zaxxer.hikari.HikariDataSource [main] sa - Starting...
+  2022-02-02 13:17:59,963 [INFO] com.zaxxer.hikari.HikariDataSource [main] sa - Start completed.
+  2022-02-02 13:17:59,974 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+  2022-02-02 13:18:00,104 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+  2022-02-02 13:18:00,146 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+  2022-02-02 13:18:00,278 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  2022-02-02 13:18:00,365 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+  2022-02-02 13:18:00,766 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+  2022-02-02 13:18:00,771 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2022-02-02 13:18:01,015 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2022-02-02 13:18:01,325 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9001 (http) with context path ''
+  2022-02-02 13:18:01,337 [INFO] com.example.SpringRestH2Application [main] Started SpringRestH2Application in 2.846 seconds (JVM running for 3.501)
+  2022-02-02 13:18:11,143 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9001-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+  2022-02-02 13:18:11,143 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9001-exec-2] Initializing Servlet 'dispatcherServlet'
+  2022-02-02 13:18:11,144 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9001-exec-2] Completed initialization in 1 ms
+  2022-02-02 13:18:11,238 [INFO] com.example.service.ServiceS [http-nio-9001-exec-2] In Services class saveUser method :EntitiyS [userId=1, userName=Manu, userAddress=India]
+  2022-02-02 13:18:17,719 [INFO] com.example.service.ServiceS [http-nio-9001-exec-3] In Services class getUser method :1
   
